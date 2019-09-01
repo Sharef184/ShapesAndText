@@ -1,0 +1,17 @@
+<div class="outer" ng-style="{
+'background-color': layout.BorderColor,
+'border-radius': layout.OuterBorderRadius}">
+
+      <div class="inner" ng-style="{
+      'border-radius': layout.InnerBorderRadius,
+      'background-color': layout.BackgroundColor}">
+
+            <div class="dynamic-output" ng-bind=layout.DynamicOutput ng-style="{
+            'color': layout.FontColor,
+            'font-size': layout.FontSize,
+            'padding-top': layout.PaddingTop}">
+            </div> <!-- /.dynamic-output -->
+
+      </div> <!-- /.inner -->
+
+</div> <!-- /.outer -->
